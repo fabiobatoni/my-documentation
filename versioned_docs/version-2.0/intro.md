@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Versão 3.0
+# Tutorial Intro
 
-# Teste 2
+# Teste
 
 Let's discover **Docusaurus in less than 5 minutes**.
 

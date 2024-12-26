@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Versão 3.0
+# Versão 2.0
 
 # Teste 2
 
