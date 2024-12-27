@@ -89,6 +89,21 @@ const config: Config = {
         {
           type: 'docsVersionDropdown',
         },
+        {
+          label: 'Support', // Nome do item principal
+          position: 'left',   // Posição no navbar
+          items: [            // Itens dentro do menu suspenso
+            { label: 'Google', href: 'https://www.google.com' },
+            { label: 'Facebook', href: 'https://www.facebook.com' },
+            { label: 'Twitter', href: 'https://www.twitter.com' },
+          ],
+        },
+        {
+          href: 'https://fabiobatoni.dev.br/',
+          label: 'fabiobatoni Website',
+          position: 'left',
+        },
+        { label: 'Contato', href: 'https://fabiobatoni.dev.br/contatos', position: 'right' },
       ],
     },
     footer: {
