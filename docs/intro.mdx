@@ -1,0 +1,70 @@
+---
+sidebar_position: 1
+---
+
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import Zoom from 'react-medium-image-zoom';
+import 'react-medium-image-zoom/dist/styles.css';
+
+# Versão 4.0
+
+# How to use
+
+Install dependencies:
+
+```bash
+npm install react-responsive-carousel react-medium-image-zoom
+
+or
+
+yarn add react-responsive-carousel react-medium-image-zoom
+```
+
+# Carousel
+
+<Carousel showThumbs={false} infiniteLoop autoPlay>
+  <div>
+    <img src="https://m.media-amazon.com/images/S/pv-target-images/bacb3246fe9c0b2053eb87cffaf022f462ae7c7dfecbe6241d0e3e5d85b13348._SX1080_FMjpg_.jpg" alt="Imagem 1" />
+  </div>
+  <div>
+    <img src="https://m.media-amazon.com/images/S/pv-target-images/bacb3246fe9c0b2053eb87cffaf022f462ae7c7dfecbe6241d0e3e5d85b13348._SX1080_FMjpg_.jpg" alt="Imagem 2" />
+  </div>
+  <div>
+    <img src="https://m.media-amazon.com/images/S/pv-target-images/bacb3246fe9c0b2053eb87cffaf022f462ae7c7dfecbe6241d0e3e5d85b13348._SX1080_FMjpg_.jpg" alt="Imagem 3" />
+  </div>
+</Carousel>
+
+# Zoom
+
+<Zoom>
+  <img src="https://m.media-amazon.com/images/S/pv-target-images/bacb3246fe9c0b2053eb87cffaf022f462ae7c7dfecbe6241d0e3e5d85b13348._SX1080_FMjpg_.jpg" alt="Imagem com zoom" width="400" />
+</Zoom>
+
+# Links
+
+## How to use
+
+- Add style in src/css/custom.css
+
+```css
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out;
+}
+
+.button-link:hover {
+  background-color: #0056b3;
+  color: white
+}
+```
+
+<a href="https://docusaurus.io/" className="button-link">
+   📖 Documentação Oficial
+</a>
